@@ -10,3 +10,4 @@
 - they are dynamix
 - declared with const, let, var
 
+- trying to submit task 1 so i had to type this
