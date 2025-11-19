@@ -1,0 +1,19 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+p {
+    color: blue;
+}
+
+.myParagraph {
+    color: red;
+}
+
+.myotherParagraph {
+    color: green;
+}
+
+#locationheader{
+    color: yellow;
+}
