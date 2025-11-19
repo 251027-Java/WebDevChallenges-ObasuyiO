@@ -1,14 +1,22 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>My First JS Page</title>
+    <title>JS Button Example</title>
   </head>
   <body>
-    <h1>Hello, JavaScript in HTML!</h1>
+    <h1>Click the Buttons!</h1>
+
+    <button onclick="sayHello()">Say Hello</button>
+    <button onclick="tellJoke()">Tell Joke</button>
+
     <script>
-      console.log("This code runs from inside the web page!");
-      let message = "Welcome to JavaScript!";
-      console.log(message);
+      function sayHello() {
+        alert("Hello from JavaScript!");
+      }
+
+      function tellJoke() {
+        alert("SIX SEVEN!!! 6 7 6 7 6 7!!!");
+      }
     </script>
   </body>
 </html>
