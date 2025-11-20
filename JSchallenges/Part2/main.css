@@ -10,3 +10,8 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+
+body.dark {
+    background-color: #222;
+    color: white;
+}

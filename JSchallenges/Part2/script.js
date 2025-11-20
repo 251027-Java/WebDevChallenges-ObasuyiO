@@ -20,5 +20,11 @@ bgBtn.addEventListener("click", () => {
     index = (index + 1) % colors.length;   
 });
 
+const darkBtn = document.getElementById("darkModeBtn");
+
+darkBtn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
+
 
 
