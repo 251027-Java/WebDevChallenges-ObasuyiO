@@ -1,13 +1,23 @@
-console.log("Hello from the external script!");
+const img = document.getElementById("gojoImage");
+const toggleBtn = document.getElementById("toggleImgBtn");
+
+toggleBtn.addEventListener("click", () => {
+    if (img.src.includes("satoru-gojo-infinity-jujutsu-kaisen-wallpaper-1920x1080_48.jpg")) {
+        img.src = "satoru-gojo-infinity-jujutsu-kaisen-wallpaper-1920x1080_48..jpg";
+    } else {
+        img.src = "deku1.jpg";
+    }
+});
 
 
-const list = document.getElementById("myList");
-const button = document.getElementById("addBtn");
+const bgBtn = document.getElementById("bgColorBtn");
 
-button.addEventListener("click", () => {
-    const newItem = document.createElement("li");
-    newItem.textContent = "New Item";
-    list.appendChild(newItem);
+const colors = ["lightblue", "lightgreen", "lightpink", "lavender", "white"];
+let index = 0;
+
+bgBtn.addEventListener("click", () => {
+    document.body.style.backgroundColor = colors[index];
+    index = (index + 1) % colors.length;   
 });
 
 
