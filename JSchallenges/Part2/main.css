@@ -1,0 +1,17 @@
+.myParagraph {
+    font-weight: normal;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Red + bold style */
+.highlight {
+    font-weight: bold;
+    color: red;
+}
+
+button {
+    padding: 8px 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}

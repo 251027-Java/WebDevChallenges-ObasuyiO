@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Style Buttons</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <p id="myParagraph">style change! @deku was here btw </p>
+
+    <button onclick="makeRed()">Make Red & Bold</button>
+    <button onclick="resetText()">Reset</button>
+
+    <script>
+        function makeRed() {
+            document.getElementById("myParagraph").classList.add("highlight");
+        }
+
+        function resetText() {
+            document.getElementById("myParagraph").classList.remove("highlight");
+        }
+    </script>
+
+</body>
+</html>
